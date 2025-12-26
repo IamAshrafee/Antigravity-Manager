@@ -617,7 +617,7 @@ print(response.text)`;
                                             value={appConfig.proxy.anthropic_mapping?.["claude-3.5-series"] || ""}
                                             onChange={(e) => handleMappingUpdate('anthropic', 'claude-3.5-series', e.target.value)}
                                         >
-                                            <option value="">claude-sonnet-4-5-thinking{t('proxy.router.default_suffix', '{t('proxy.router.default_suffix', ' (Default)')}')}</option>
+                                            <option value="">claude-sonnet-4-5-thinking{t('proxy.router.default_suffix', ' (Default)')}</option>
                                             <optgroup label="Claude 4.5">
                                                 <option value="claude-opus-4-5-thinking">claude-opus-4-5-thinking</option>
                                                 <option value="claude-sonnet-4-5">claude-sonnet-4-5</option>
