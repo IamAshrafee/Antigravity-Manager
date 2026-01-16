@@ -459,7 +459,7 @@
             },
             "request_timeout": "Tempo Limite da Solicitação",
             "request_timeout_tooltip": "Tempo máximo (segundos) que o proxy aguarda por uma resposta upstream, incluindo streaming. Aumente para gerações longas; reinício necessário para aplicar.",
-            "request_timeout_hint": "Padrão 120s, intervalo 30-3600s. Reinicie o serviço para aplicar alterações.",
+            "request_timeout_hint": "Padrão 120s, intervalo 30-7200s. Reinicie o serviço para aplicar alterações.",
             "enable_logging": "Habilitar Registro de Solicitações",
             "enable_logging_hint": "Registrar histórico para depuração (Custo de desempenho menor)",
             "upstream_proxy": {
